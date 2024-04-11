@@ -9,8 +9,6 @@ Puppet::Type.type(:docker_compose).provide(:ruby) do
 
   has_command(:docker, 'docker')
 
-  has_command(:dockercompose, 'docker')
-
   def set_tmpdir
     return unless resource[:tmpdir]
 
