@@ -5,7 +5,7 @@ require:
 AllCops:
   NewCops: enable
   DisplayCopNames: true
-  TargetRubyVersion: '2.6'
+  TargetRubyVersion: '2.7'
   Include:
   - "**/*.rb"
   Exclude:
@@ -529,8 +529,11 @@ Lint/DuplicateBranch:
   Enabled: false
 Lint/DuplicateMagicComment:
   Enabled: false
+<<<<<<< HEAD
 Lint/DuplicateMatchPattern:
   Enabled: false
+=======
+>>>>>>> 8f4b3d98c7110e3a4fc9151a14e55876eec2b585
 Lint/DuplicateRegexpCharacterClassElement:
   Enabled: false
 Lint/EmptyBlock:
@@ -647,8 +650,11 @@ Style/ComparableClamp:
   Enabled: false
 Style/ConcatArrayLiterals:
   Enabled: false
+<<<<<<< HEAD
 Style/DataInheritance:
   Enabled: false
+=======
+>>>>>>> 8f4b3d98c7110e3a4fc9151a14e55876eec2b585
 Style/DirEmpty:
   Enabled: false
 Style/DocumentDynamicEvalDefinition:
@@ -717,8 +723,11 @@ Style/RedundantHeredocDelimiterQuotes:
   Enabled: false
 Style/RedundantInitialize:
   Enabled: false
+<<<<<<< HEAD
 Style/RedundantLineContinuation:
   Enabled: false
+=======
+>>>>>>> 8f4b3d98c7110e3a4fc9151a14e55876eec2b585
 Style/RedundantSelfAssignmentBranch:
   Enabled: false
 Style/RedundantStringEscape:
